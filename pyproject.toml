@@ -1,0 +1,11 @@
+[project]
+name = "rqm-examples"
+version = "0.1.0"
+description = "Examples demonstrating the Resonant Quantum Mechanics software ecosystem"
+authors = [{ name = "RQM Technologies" }]
+requires-python = ">=3.9"
+
+dependencies = [
+    "rqm-core",
+    "rqm-qiskit"
+]
