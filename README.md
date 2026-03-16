@@ -33,13 +33,56 @@ python examples/quaternion_rotation.py
 
 ## Examples
 
-| Script | Description |
-|--------|-------------|
-| `examples/quaternion_rotation.py` | Demonstrates quaternion rotations |
-| `examples/spinor_to_quaternion.py` | Shows how spinors map to quaternions |
-| `examples/bloch_visualization.py` | Demonstrates Bloch vector conversion |
-| `examples/su2_gate_demo.py` | Demonstrates SU(2) matrix generation |
-| `examples/qiskit_single_qubit.py` | Example using the rqm-qiskit bridge package |
+### Quaternion rotation
+
+```bash
+python examples/quaternion_rotation.py
+```
+
+```
+Quaternion: (0.7071, 0.7071, 0, 0)
+Norm: 1.0
+```
+
+### Spinor to quaternion
+
+```bash
+python examples/spinor_to_quaternion.py
+```
+
+```
+Quaternion representation: (1.0, 0.0, 0.0, 0.0)
+```
+
+### Bloch vector conversion
+
+```bash
+python examples/bloch_visualization.py
+```
+
+```
+Bloch vector: (0.0, 0.0, 1.0)
+```
+
+### SU(2) gate demo
+
+```bash
+python examples/su2_gate_demo.py
+```
+
+```
+SU(2) matrix: [[-0.+0.j, 0.+0.j], [0.+0.j, -0.+0.j]]
+```
+
+### Qiskit single qubit
+
+```bash
+python examples/qiskit_single_qubit.py
+```
+
+```
+Initial state: |0⟩
+```
 
 ## Architecture
 
