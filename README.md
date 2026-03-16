@@ -25,10 +25,14 @@ rqm-qiskit
 pip install -e .
 ```
 
-## Running an Example
+## Run All Examples
 
 ```bash
-python examples/quaternion_rotation.py
+python -m examples.quaternion_rotation
+python -m examples.spinor_to_quaternion
+python -m examples.bloch_visualization
+python -m examples.su2_gate_demo
+python -m examples.qiskit_single_qubit
 ```
 
 ## Examples
